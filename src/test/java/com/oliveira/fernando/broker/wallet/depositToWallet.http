@@ -1,0 +1,11 @@
+POST localhost:8080/account/wallets/deposit
+Content-Type: application/json
+
+{
+  "accountId": "7fd03dd4-8c68-11ed-a1eb-0242ac120002",
+  "walletId": "81123fb0-8c6a-11ed-a1eb-0242ac120002",
+  "symbol": {
+    "value": "USD"
+  },
+  "amount": 1000
+}
